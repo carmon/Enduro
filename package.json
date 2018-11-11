@@ -1,30 +1,15 @@
 {
-  "name": "enduro",
+  "name": "sass_enduro",
   "version": "1.4.46",
-  "description": "Minimalistic, lean & mean static page generator / cms",
+  "description": "Based on original endurojs",
   "main": "index.js",
-  "author": {
-    "name": "Martin Gottweis"
-  },
   "contributors": [
     {
-      "name": "Cosmo Myzrail Gorynych"
-    },
-    {
-      "name": "Justin Rahardjo"
-    },
-    {
-      "name": "Sebastian Lietzijewitsch"
-    },
-    {
-      "name": "Sergejs Bojaruns"
+      "name": "Emiliano Carmona"
     }
   ],
   "bin": {
-    "enduro": "./cli.js"
-  },
-  "bugs": {
-    "url": "https://github.com/Gottwik/Enduro/issues"
+    "sass_enduro": "./cli.js"
   },
   "dependencies": {
     "async": "^2.6.0",
@@ -100,16 +85,9 @@
     "mocha-lcov-reporter": "^1.2.0"
   },
   "directories": {},
-  "dist": {
-    "integrity": "sha512-ml+lOJwPaG4beUL31/V5A9F12tW6kVtsUg3LzF2DgU9P9NTkLoEz52n+FrWhYB/vRbyXQ0puWet04PVK6+xGSw==",
-    "shasum": "4ceaaf61faa0bb11163f545f98bfb0efa36297e2",
-    "tarball": "https://registry.npmjs.org/enduro/-/enduro-1.4.38.tgz"
-  },
   "engines": {
     "node": ">= 6"
   },
-  "gitHead": "c662f44c8f1fe8d8210c4442b6efb58e2e7cca2f",
-  "homepage": "http://www.endurojs.com",
   "keywords": [
     "cms",
     "page generator",
@@ -119,16 +97,11 @@
   "license": "MIT",
   "maintainers": [
     {
-      "name": "gottwik",
-      "email": "gottwik@gmail.com"
+      "name": "elcarmon",
+      "email": "elcarmon@gmail.com"
     }
   ],
-  "optionalDependencies": {},
   "readme": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gottwik/enduro.git"
-  },
   "scripts": {
     "test": "mocha --recursive --bail",
     "to": "mocha --recursive --bail --grep online_test -i"
