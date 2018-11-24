@@ -1,6 +1,6 @@
 {
   "name": "sass_enduro",
-  "version": "1.4.46",
+  "version": "1.0.0",
   "description": "Based on original endurojs",
   "main": "index.js",
   "contributors": [
@@ -23,7 +23,7 @@
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "dir-compare": "^1.0.1",
-    "enduro_admin": "git+https://github.com/carmon/enduro_admin.git",
+    "enduro_admin": "git@github.com:carmon/enduro_admin.git",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
     "extend": "^3.0.0",
