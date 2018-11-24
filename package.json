@@ -1,6 +1,6 @@
 {
   "name": "sass_enduro",
-  "version": "1.4.46",
+  "version": "1.0.0",
   "description": "Based on original endurojs",
   "main": "index.js",
   "contributors": [
@@ -23,7 +23,7 @@
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "dir-compare": "^1.0.1",
-    "enduro_admin": "git+https://github.com/carmon/enduro_admin.git",
+    "enduro_admin": "carmon/enduro_admin",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
     "extend": "^3.0.0",
@@ -62,7 +62,7 @@
     "npm": "^5.6.0",
     "opn": "^5.1.0",
     "password-hash": "^1.2.2",
-    "promised-handlebars": "git+https://github.com/Gottwik/promised-handlebars.git",
+    "promised-handlebars-gottwik": "2.0.1",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
     "require-from-string": "^2.0.1",
