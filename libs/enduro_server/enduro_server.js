@@ -116,7 +116,7 @@ enduro_server.prototype.run = function (server_setup) {
 					.then(() => {
 
 						let requested_url = req.url
-
+						requested_url = requested_url.split('?')[0]
 						let a = requested_url.split('/').filter(x => x.length)
 						// serves index.html when empty or culture-only url is provided
 						if (requested_url.length <= 1 ||
